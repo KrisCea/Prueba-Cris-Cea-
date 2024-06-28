@@ -1,18 +1,3 @@
-#recuerda hacer contador
-
-#Uso de colecciones
-# Uso de archivos de texto
-# Uso de librerías estándar de Python
-
-"""nombre, 
-dirección y 
-número de teléfono,
-detalles de su pedido, incluyendo el 
-tipo y la 
-cantidad de plantas o flores solicitadas"""
-
-""" El sistema deberá mostrar una lista de todos los pedidos realizados, incluyendo los detalles del cliente y los productos
-solicitados"""
 
 import csv
 
@@ -120,7 +105,7 @@ while agregar_cliente:
     if int(opcion)==0:
             break
     
-    print(f"****Boleta****")
+    print(f"****Factura****")
     for i in pedido:
         for j in i:
             print(j, end=", ")
